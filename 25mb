@@ -1,6 +1,6 @@
 #!/bin/bash
 #set -o xtrace
-targetSizeKilobytes=8192
+targetSizeKilobytes=24576
 fileInput=$1
 ext="${fileInput##*.}"; 
 fileOutput="${fileInput}.shrunk.${ext}"
