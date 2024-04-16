@@ -42,7 +42,7 @@ def transcode(fileInput, fileOutput, bitrate):
 tolerance = 10
 fileInput = sys.argv[1]
 fileOutput = fileInput + ".crushed.mp4"
-targetSizeKilobytes = 8192
+targetSizeKilobytes = 24576
 targetSizeBytes = targetSizeKilobytes * 1024
 durationSeconds = get_duration(sys.argv[1])
 bitrate = round( targetSizeBytes / durationSeconds)
